@@ -1,0 +1,261 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:azure;
+}
+
+header {
+    min-height: 580px;
+    background-image: url(Imegs/home-2.jpg);
+    background-position: initial;
+}
+
+.overley {
+    min-height: 580px;
+    background-color: #000000d1;
+    display: flex;
+    flex-direction: column;
+}
+
+.h_containt {
+    width: 80%;
+    min-height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LG {
+    color: white;
+    font-size: xx-large;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+.menu nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: red;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.menu nav ul li a:hover {
+color:white;
+}
+
+.hd-containt {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.hd-containt h2 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.hd-containt h1 {
+    margin:5px;
+    padding: 0px;
+    color: white;
+    font-size: 50px;
+    text-transform:uppercase;
+}
+
+.hd-containt p {
+    text-align: justify;
+    color: white;
+    text-align:center;
+}
+.cli_btn{
+    padding: 5px 25px;
+    color:red;
+}
+
+.contrain-up {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    /* background: chocolate; */
+    padding: 20px;
+    text-align: center;
+}
+
+h2, p {
+    color: #504f4f;
+}
+
+.contrain-downd {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.contrain-left {
+    width: 50%;
+    text-align: justify;
+}
+
+.contrain-left-top h2 {
+    border-left: 0.5px solid #808080f2;
+    padding: 0px;
+    margin: 0px;
+}
+.contrain-left-top h1 {
+    border-left: 0.5px solid red;
+    margin: 0px;
+}
+.contrain-left-downd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.contrain-left-downd p{
+    padding:0px 15px;
+}
+
+.icon {
+    background: red:;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon p{
+    color:white;
+}
+
+.contrain-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* margin: 103px; */
+}
+
+.section_branding {
+    width: 90%;
+    margin: auto;
+}
+
+.branding {
+    width: 70%;
+    height: 30px;
+    margin: 2px auto;
+}
+
+
+.branding p{
+    margin:0px;
+    padding:0px;
+}
+
+.line-grey {
+    width: 100%;
+    background: grey;
+    height: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.line-red-one {
+    width: 80%;
+    height: 5px;
+    background: red;
+    border-radius: 0px 5px 5px 0px;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+
+.line-red-two {
+    width: 95%;
+    height: 5px;
+    background: red;
+    border-radius: 0px 5px 5px 0px;
+    animation-name: example;
+    animation-duration: 1s;
+}
+.line-red-three {
+    width: 85%;
+    height: 5px;
+    background: red;
+    border-radius: 0px 5px 5px 0px;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+
+.line-red-four {
+    width: 90%;
+    height: 5px;
+    background: red;
+    border-radius: 0px 5px 5px 0px;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25% {background-color:rgb(255, 136, 0); }
+    50% {background-color:rgb(95, 56, 187); }
+    75% {background-color:rgb(70, 0, 240); }
+    50% {background-color:rgb(76, 0, 255); }
+  }
+
+  /*--brandding-ditalis-section strat---*/
+
+  .branding-ditalis-section {
+    width: 100%;
+    background-color: #2c2c2c1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+
+.branding-ditalis {
+    width: 20%;
+    margin: 30px 15px;
+    padding: 25px;
+    text-align: justify;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px -2px;
+}
+
+.b-icon p {
+    margin: 0px;
+    font-size: 49px;
+    text-align: center;
+    color:red;
+}
+.b-icon h3 {
+    margin: 0px;
+    text-align: center;
+}
